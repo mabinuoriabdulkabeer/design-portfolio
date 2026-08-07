@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AbdulKabeer Mabinuori Visual Designer</title>
+<meta name="description" content="Visual designer based in Nigeria. Brand identities, campaign visuals, and social graphics.">
+
+<!-- Fonts: Fraunces for headings, Inter for body -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER / STICKY NAV ============ -->
+<header class="site-header">
+  <nav class="nav container">
+    <a class="nav__logo" href="index.html">AbdulKabeer <span>Design Portfolio.</span></a>
+    <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    <ul class="nav__links">
+      <li><a class="nav__link" href="#hero">Home</a></li>
+      <li><a class="nav__link" href="#work">Selected Work</a></li>
+      <li><a class="nav__link" href="#services">Services</a></li>
+      <li><a class="nav__link" href="#about">About</a></li>
+      <li><a class="nav__link" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero container" id="hero">
+    <div class="hero__grid">
+      <div>
+        <p class="eyebrow" style="margin-bottom:18px;"><span class="tag-white">Branding</span><span class="tag-dot">&middot;</span><span class="tag-gold">Campaign</span><span class="tag-dot">&middot;</span><span class="tag-white">Social Design</span></p>
+        <h1 class="hero__headline">Visuals that <span class="accent-text">carry information</span>,<br>not just decorate it.</h1>
+        <p class="hero__sub">Helping businesses, events, and organizations communicate with clarity through thoughtful branding, campaign design, and visual storytelling.</p>
+        <div class="hero__ctas">
+          <a class="btn btn--primary" href="#work">View Projects</a>
+          <a class="btn btn--ghost" href="#contact">Hire Me</a>
+        </div>
+      </div>
+
+      <!-- Overlapping collage populated from real project images via script.js -->
+      <div class="collage" id="hero-collage" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- ============ SELECTED WORK ============ -->
+  <section class="section container" id="work">
+    <div class="section__head">
+      <div>
+        <p class="eyebrow" style="margin-bottom:10px;">Selected Work</p>
+        <h2>Brands, campaigns,<br>and content that ship.</h2>
+      </div>
+      <p>Several projects across brand identity, campaign design, and social content, each opening into a full case study.</p>
+    </div>
+
+    <div class="work-grid" id="work-grid">
+      <!-- Project cards are rendered by script.js from the PROJECTS data object -->
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section container" id="services">
+    <div class="section__head">
+      <div>
+        <p class="eyebrow" style="margin-bottom:10px;">Services</p>
+        <h2>Where I help.</h2>
+      </div>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-card__index">01</div>
+        <h3>Brand Identity</h3>
+        <p>Logos, wordmarks, and visual systems that give a business a consistent, recognizable presence - from first sketch to a launch-ready identity.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-card__index">02</div>
+        <h3>Campaign Design</h3>
+        <p>Multi-touchpoint creative for events, product launches, and marketing pushes - one idea, carried cleanly across every format it needs to live in.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-card__index">03</div>
+        <h3>Social Media Design</h3>
+        <p>Scroll-stopping content built for how people actually consume it - fast, visual, on-brand, and easy to keep producing week after week.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section container" id="about">
+    <div class="section__head">
+      <div>
+        <p class="eyebrow" style="margin-bottom:10px;">About</p>
+        <h2>From the lab bench<br>to the layout grid.</h2>
+      </div>
+    </div>
+
+    <div class="about">
+      <p class="about__quote reveal">"I treat every brand, campaign, or piece of content as a communication problem first and a visual one second."</p>
+      <div class="about__bio reveal">
+        <p>I'm <strong>AbdulKabeer Mabinuori</strong>, a visual designer who combines creativity with analytical thinking.</p>
+        <p>My journey into design began from an unexpected place. With a background in Microbiology, I developed an appreciation for research, structure, and the importance of communicating information clearly. I later built skills in data analytics, where I learned how to transform complex information into meaningful insights.</p>
+        <p>These experiences shape the way I approach design today. I create brand identities, campaign visuals, and digital content with a focus on clarity, consistency, and purpose. Every project is an opportunity to turn ideas into visual systems that people can understand, connect with, and remember.</p>
+        <p>I believe good design is not just about making things look appealing. It is about understanding the message, finding the right structure, and creating visuals that communicate effectively.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section container" id="contact">
+    <div class="contact-box reveal">
+      <h2>Have a brand, event,<br>or campaign that needs a shape?</h2>
+      <div class="contact-links">
+        <a href="mailto:mabinuoriabdulkabeer2005@gmail.com">Email - mabinuoriabdulkabeer2005@gmail.com</a>
+        <a href="https://www.linkedin.com/in/abdulkabeer-mabinuori-144068386" target="_blank" rel="noopener">LinkedIn - Abdulkabeer Mabinuori </a>
+        <a href="https://wa.me/2348140063415" target="_blank" rel="noopener">WhatsApp - +2348140063415 </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer container">
+  <div class="footer-bottom">
+    <span>© 2026 AbdulKabeer Mabinuori</span>
+    <span class="status"><span class="status__dot"></span>Open to work</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
