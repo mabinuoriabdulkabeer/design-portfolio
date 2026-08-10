@@ -102,6 +102,19 @@ h1,h2,h3,h4{
   font-weight: 700;
 }
 
+/* the tag words double as clickable filters for the work grid below */
+.tag-filter{
+  cursor: pointer;
+  text-underline-offset: 5px;
+  text-decoration-line: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color var(--dur-fast) var(--ease);
+}
+.tag-filter:hover,
+.tag-filter.is-active{
+  text-decoration-color: currentColor;
+}
+
 .muted{ color: var(--muted); }
 
 /* focus visibility for accessibility */
