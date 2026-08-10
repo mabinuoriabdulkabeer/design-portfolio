@@ -524,7 +524,7 @@ function setWorkStatus(filterGroup) {
 
   desc.innerHTML =
     `Showing <strong>${GROUP_LABELS[filterGroup]}</strong> work — ` +
-    `<a href="#work" id="clear-filter">show everything</a>`;
+    `<a href="#work" id="clear-filter" class="chip-btn chip-btn--ghost">show everything</a>`;
 }
 
 function applyFilter(filterGroup) {
