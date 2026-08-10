@@ -94,25 +94,57 @@ h1,h2,h3,h4{
 /* hero tagline: "Branding · Campaign · Social Design" — mixed colors,
    with a middle-dot (not a period) so the separator sits at true
    vertical center instead of on the text baseline */
+.tagline-row{ display:flex; align-items:center; flex-wrap:wrap; row-gap:10px; }
 .tag-white{ color: var(--text); }
 .tag-gold{ color: var(--accent); }
 .tag-dot{
   color: var(--accent);
-  margin: 0 9px;
+  margin: 0 8px;
   font-weight: 700;
 }
 
-/* the tag words double as clickable filters for the work grid below */
-.tag-filter{
+/* these words double as clickable filters for the work grid below —
+   styled as real pill buttons so it's obvious at a glance they're
+   clickable, not just labels */
+.chip-btn{
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 16px;
+  border-radius: 100px;
+  border: 1px solid var(--line-strong);
+  background: var(--card);
   cursor: pointer;
-  text-underline-offset: 5px;
-  text-decoration-line: underline;
-  text-decoration-color: transparent;
-  transition: text-decoration-color var(--dur-fast) var(--ease);
+  transition: background var(--dur-fast) var(--ease),
+              border-color var(--dur-fast) var(--ease),
+              transform var(--dur-fast) var(--ease);
 }
-.tag-filter:hover,
+.chip-btn:hover{
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
 .tag-filter.is-active{
-  text-decoration-color: currentColor;
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #14110A !important;
+}
+
+/* smaller ghost variant used for the "show everything" reset link,
+   sits inline within a sentence rather than the eyebrow row */
+.chip-btn--ghost{
+  padding: 3px 12px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+  color: var(--text);
+  border-color: var(--line-strong);
+  background: transparent;
+  vertical-align: middle;
+}
+.chip-btn--ghost:hover{
+  border-color: var(--accent);
+  color: var(--accent-soft);
 }
 
 .muted{ color: var(--muted); }
