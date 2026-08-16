@@ -40,7 +40,7 @@ const PROJECTS = {
     title: "Treats by Dee",
     category: "Brand Identity",
     group: "branding",
-    year: "2025",
+    year: "2026",
 
     summary:
       "A clean visual identity and launch system for a local snacks and beverages brand.",
@@ -66,7 +66,7 @@ const PROJECTS = {
     title: "Bola for Nails",
     category: "Social Media Design",
     group: "branding",
-    year: "2024",
+    year: "2026",
 
     summary:
       "A promotional social media flyer designed to present a nail care business clearly.",
@@ -87,7 +87,7 @@ const PROJECTS = {
     title: "Elysora",
     category: "Social Media Design",
     group: "branding",
-    year: "2024",
+    year: "2025",
 
     summary:
       "A social media flyer designed to give Elysora a clean and distinct visual presence.",
@@ -129,7 +129,7 @@ const PROJECTS = {
     title: "Threadline Co.",
     category: "Social Media Design",
     group: "branding",
-    year: "2024",
+    year: "2026",
 
     summary:
       "A promotional flyer for a tailoring business offering custom wear, alterations, and sewing training.",
@@ -171,7 +171,7 @@ const PROJECTS = {
     title: "University Election Campaign",
     category: "Campaign Design",
     group: "campaign",
-    year: "2024",
+    year: "2025",
 
     summary:
       "A series of campaign graphics for student association elections.",
@@ -198,7 +198,7 @@ const PROJECTS = {
     title: "Indigo Atelier",
     category: "Campaign Design",
     group: "campaign",
-    year: "2024",
+    year: "2025",
 
     summary:
       "A complete visual campaign for an event built around entrepreneurs, creatives, brands, and artists.",
@@ -225,7 +225,7 @@ const PROJECTS = {
     title: "Reaper SZN",
     category: "Campaign Design",
     group: "campaign",
-    year: "2024",
+    year: "2025",
 
     summary:
       "A launch campaign for a streetwear clothing brand built around its first collection.",
@@ -277,7 +277,7 @@ const PROJECTS = {
     title: "Financial Consultant",
     category: "Campaign Design",
     group: "campaign",
-    year: "2025",
+    year: "2024-2026",
 
     summary:
       "A social media campaign designed to make financial planning feel clear, professional, and approachable.",
@@ -300,7 +300,7 @@ const PROJECTS = {
     title: "FYB",
     category: "Campaign Design",
     group: "campaign",
-    year: "2024",
+    year: "2025",
 
     summary:
       "Event graphics for final year student celebrations and activities.",
